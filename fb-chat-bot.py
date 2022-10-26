@@ -524,10 +524,10 @@ class ChatBot(Client):
                 reply = "Good Morning🌅🌺"
                 sendMsg()
             elif ("goodnight" in msg):
-                reply = "good night🌃🌙"
+                reply = "good nigh t🌃 🌙"
                 sendMsg()
             elif ("good night" in msg or msg == "gn"):
-                reply = "good night🌃🌙"
+                reply = "good night 🌃 🌙"
                 sendMsg()
             elif ("hello" in msg):
                 reply = "Hi"
@@ -537,6 +537,9 @@ class ChatBot(Client):
                 sendMsg()
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
+                sendMsg()
+            elif (msg == "hy"):
+                reply = "Jada hy hy karega to teri gand me ghus jaunga madarchod tate <3"
                 sendMsg()
 
         except Exception as e:
