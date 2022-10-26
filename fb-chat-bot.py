@@ -472,14 +472,14 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("gandu" in msg):
-                reply = "Han bh3n ke lomde bol :("
+            elif ("busy" in msg):
+                reply = "Nobody is busy. Only things are prioritized."
                 sendMsg()
             elif("help" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("gand mara" in msg):
-                reply = "teri mummi ke sath marvaunga huehue chutiya sala :o"
+            elif("clever" in msg):
+                reply = "Yes, i am clever. hope you will be clever soon."
                 sendMsg()
             elif("crazy" in msg):
                 reply = "Anything wrong about that."
@@ -532,21 +532,13 @@ class ChatBot(Client):
             elif ("hello" in msg):
                 reply = "Hi"
                 sendMsg()
-            elif ("hello" in msg or "hlo" in msg):
-                reply = "Hi"
+            elif ("hello" in msg or "bot" in msg):
+                reply = "gand mara jhantu"
                 sendMsg()
             elif (msg == "hi"):
-                reply = "Hello lowde gand dega kya?"
+                reply = "Hello! How can I help you?"
                 sendMsg()
-            elif (msg == "bot"):
-                reply = "Kya be chumtmarike"
-                sendMsg()
-                elif (msg == "bot goodnight"):
-                reply = "han  lowde/lowdi good night"
-                elif (msg == "bot sex"):
-                reply = "Gend marunga teri bhot tez huehuehuehue <3 :p"
-                sendMsg()
-                sendMsg()
+
         except Exception as e:
             print(e)
 
@@ -664,9 +656,9 @@ class ChatBot(Client):
 cookies = {
     "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "",
+    "c_user": "100026590876524",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": ""
+    "xs": "47%3Ai5xMfnXhYIsRJQ%3A2%3A1666784469%3A-1%3A4762%3A%3AAcV7iJIMhqWplm8XgzfUJbL_OY1cxmcj6Fa0lcx1UA"
 }
 
 
