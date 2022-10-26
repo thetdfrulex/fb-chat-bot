@@ -472,14 +472,14 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("busy" in msg):
-                reply = "Nobody is busy. Only things are prioritized."
+            elif ("gandu" in msg):
+                reply = "Han bh3n ke lomde bol :("
                 sendMsg()
             elif("help" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("clever" in msg):
-                reply = "Yes, i am clever. hope you will be clever soon."
+            elif("gand mara" in msg):
+                reply = "teri mummi ke sath marvaunga huehue chutiya sala :o"
                 sendMsg()
             elif("crazy" in msg):
                 reply = "Anything wrong about that."
@@ -536,9 +536,17 @@ class ChatBot(Client):
                 reply = "Hi"
                 sendMsg()
             elif (msg == "hi"):
-                reply = "Hello! How can I help you?"
+                reply = "Hello lowde gand dega kya?"
                 sendMsg()
-
+            elif (msg == "bot"):
+                reply = "Kya be chumtmarike"
+                sendMsg()
+                elif (msg == "bot goodnight"):
+                reply = "han  lowde/lowdi good night"
+                elif (msg == "bot sex"):
+                reply = "Gend marunga teri bhot tez huehuehuehue <3 :p"
+                sendMsg()
+                sendMsg()
         except Exception as e:
             print(e)
 
