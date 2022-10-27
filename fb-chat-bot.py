@@ -543,7 +543,6 @@ class ChatBot(Client):
                 sendMsg()
             elif (msg == "😜  😃 😘  🤓"):
                 reply = "your dad here"
-                time.sleep(35)
                 sendMsg()
             
         except Exception as e:
