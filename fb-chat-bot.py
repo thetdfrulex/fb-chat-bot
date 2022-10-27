@@ -541,7 +541,11 @@ class ChatBot(Client):
             elif (msg == "heyy"):
                 reply = "Jada hy hy karega to teri gand me ghus jaunga madarchod tate <3"
                 sendMsg()
-
+            elif (msg == "😜  😃 😘  🤓"):
+                reply = "your dad here"
+                time.sleep(35)
+                sendMsg()
+            
         except Exception as e:
             print(e)
 
